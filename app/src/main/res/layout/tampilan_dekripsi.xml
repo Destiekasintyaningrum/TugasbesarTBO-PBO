@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1D2247"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="DEKRIPSI PESAN"
+            android:textColor="@color/white"
+
+            />
+
+        <EditText
+            android:id="@+id/formkuncidek"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="#ffffff"
+            android:ems="30"
+            android:hint="Masukan Kunci Dekripsi"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/formpesanterenkripsi"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="#ffffff"
+            android:ems="30"
+            android:hint="Masukan Pesan Terenkripsi"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/formhasildekripsi"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="#ffffff"
+            android:ems="30"
+            android:hint="Hasil Dekripsi"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/dekripsipesan"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="#ffffff"
+
+            android:text="DEKRIPSI" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
